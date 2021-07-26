@@ -122,7 +122,6 @@ extension LoginViewController: UITextFieldDelegate {
             if userNameTextField == textField && userName!.isEmpty {
             
             } else {
-                showAlertErrorIsEmpty()
                 userNameTextField.placeholder = "Type something"
                 passwordTextField.placeholder = "Type something"
             }
