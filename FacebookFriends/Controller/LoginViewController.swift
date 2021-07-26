@@ -32,7 +32,7 @@ class LoginViewController: UIViewController {
     func textFieldEdit(_ textField: UITextField) {
         let myColor = #colorLiteral(red: 0.4971373677, green: 0.6192893386, blue: 0.552495718, alpha: 1)
         textField.layer.borderColor = myColor.cgColor
-        textField.layer.borderWidth = 1.0 
+        textField.layer.borderWidth = 1.0
         textField.layer.cornerRadius = 15.0
     }
     
@@ -110,6 +110,7 @@ extension LoginViewController: UITextFieldDelegate {
             textField.placeholder = "Type something"
             return true
         }
+
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
